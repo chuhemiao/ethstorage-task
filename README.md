@@ -46,3 +46,7 @@ Number of blobs uploaded this time: 1
 官方预计消耗 0.024 ETH 左右的测试币，刚刚部署消耗的比这少很多，基本可以忽略不计。
 
 最后通过 FlatDirectory 的地址进行访问：<https://0x3bff11966bf854af732e4dc4bbe03ebb90f19b7f.3333.w3link.io/index.html> 此处要加上 3333，是通过 ethstorage 的 blob 存储的。
+
+访问表单并提交内容，表单地址：<https://dawme4mo.forms.app/ethstorage-2nd-campaign-submission?ref=kkdemian>
+
+第一步填写（记得替换为自己的地址）：web3://0x3bff11966bf854af732e4dc4bbe03ebb90f19b7f.3333.w3link.io/index.html
