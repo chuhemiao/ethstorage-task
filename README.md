@@ -31,6 +31,18 @@ providerUrl = http://88.99.30.186:8545/
 FlatDirectory Address: 0x3bfF11966bF854AF732e4Dc4bBe03eBb90F19b7f
 ```
 
+然后通过拿到的 FlatDirectory 地址执行， `ethfs-cli upload -f dist -a 0x3bfF11966bF854AF732e4Dc4bBe03eBb90F19b7f  -c 11155111 -p 私钥地址 -t 2`
+
+执行完会看到消耗的 gas，以及文件变化的情况。大概是下面这样：
+
+```
+Start Send...
+Tx hash: 0xf9af8c11572d7531ba1d307bf7a864521f14983fe95a7a615976c6c40c6e57c2
+Blob index: 0 uploaded!
+Total number of blobs: 1
+Number of blobs uploaded this time: 1
+```
+
 官方预计消耗 0.024 ETH 左右的测试币，刚刚部署消耗的比这少很多，基本可以忽略不计。
 
 最后通过 FlatDirectory 的地址进行访问：<https://0x3bff11966bf854af732e4dc4bbe03ebb90f19b7f.3333.w3link.io/index.html> 此处要加上 3333，是通过 ethstorage 的 blob 存储的。
