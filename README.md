@@ -19,8 +19,6 @@ FlatDirectory Address: 0x4bDA24261CEa8A756D7151c875f00401De575607 // 创建后�
 
 **提示：图片的问题可以忽略，我忘记改名字了，不重新传了，太费测试币了。**
 
-其实前面三个貌似不做也问题不大！！！万一官方也会检查，最好还是搞一下。
-
 4.第四步，使用 blob 的模式，ETH+EthStorage 进行部署
 
 还是通过，`ethfs-cli create -p 私钥地址 -c 11155111` 创建一个新的 FlatDirectory 合约地址，执行完大是：
